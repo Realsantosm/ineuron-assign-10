@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;900&display=swap");
+
+body {
+  background: url(./images/retro-living-room-interior-design.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 90vh;
+  color: #fff;
+  font-family: Montserrat;
+  overflow: hidden;
+  padding: 2% 4%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20rem;
+}
+
+.logo h1 {
+  max-width: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.list-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+/* .list {
+  list-style: none;
+  display: flex;
+  /* flex-direction: row;
+  padding-left: 0;
+  gap: 3rem; 
+} */
+
+.list-items {
+  list-style-type: none;
+  margin: 0 20px;
+  font-size: larger;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+.list-items:hover {
+  border-bottom: solid 2px #fff;
+  transition: 0.15ms;
+}
+
+.call-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 150px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.call-image {
+  width: 40px;
+  filter: brightness(0) invert(1);
+}
+
+.line-underline {
+  width: 65.5%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 85px;
+  right: 20px;
+}
+
+.main {
+  margin-top: 100px;
+  padding: 0 1% 0 2%;
+}
+
+.main h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.main-btn {
+  margin-top: 2%;
+  font-family: Montserrat;
+  font-size: large;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border: #fff 2px solid;
+  border-radius: 25px;
+  padding: 10px 25px;
+}
+
+.text-one {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 23%;
+  right: 10%;
+}
+
+.text-two {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 15%;
+  right: 30%;
+}
+
+.line-bar {
+  display: block;
+  border-radius: 20px;
+  height: 40px;
+  width: 80px;
+  background-color: #fff;
+}
+
+.body-text {
+  background-color: rgba(255, 255, 255, 0.226);
+  font-size: small;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+
+.body-text-two {
+  background-color: rgba(255, 255, 255, 0.226);
+  font-size: small;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+
+.bar-one {
+  position: absolute;
+  right: 30%;
+  top: 100%;
+  display: block;
+  background-color: #fff;
+  width: 1px;
+  height: 4rem;
+}
+
+.bar-two {
+  position: absolute;
+  top: 35%;
+  left: 100%;
+  display: block;
+  background-color: #fff;
+  width: 4rem;
+  height: 1px;
+}
+
+.round-one {
+  display: block;
+  position: absolute;
+  right: 27%;
+  top: 139%;
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.round-two {
+  position: absolute;
+  top: 30%;
+  left: 125%;
+  display: block;
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.puzzle-img {
+  position: absolute;
+  top: -2%;
+  right: -45%;
+}
+
+.idea-img {
+  position: absolute;
+  top: -4%;
+  /* right: 1%; */
+  left: -100px;
+}
